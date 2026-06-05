@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e6e0e0;
+}
+
+.card{
+    width: 420px;
+    background: white;
+    border-radius: 35px;
+    overflow: hidden;
+    position: relative; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.cover{
+    height: 250px;
+    background: url("https://i.pinimg.com/736x/a6/79/36/a6793653e0acee6826c729bd2851955b.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px 35px 40px 40px;
+    position: relative;
+}
+
+.add-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    font-size: 45px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+.profile-img{
+    position: absolute;
+    top: 170px;            
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.profile-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+}
+
+.content{
+    text-align: center;
+    padding: 100px 30px 35px; 
+}
+
+.content h2{
+    font-size: 42px;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.content p{
+    color: #7a7a7a;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.stats{
+    margin-top: 35px;
+    border: 1px solid #e4e4e4;
+    border-radius: 25px;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats h3{
+    font-size: 32px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.stats span{
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.social-icons i{
+    font-size: 38px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
